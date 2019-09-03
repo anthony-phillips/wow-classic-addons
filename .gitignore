@@ -1,0 +1,5 @@
+*
+!*/
+!.gitignore
+!Interface/AddOns/**
+!WTF/Account/ANTHONYPHILLIPS/SavedVariables/*.lua
