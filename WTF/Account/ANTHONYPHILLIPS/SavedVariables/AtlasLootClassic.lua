@@ -1,13 +1,18 @@
 
 AtlasLootClassicDB = {
-	["profileKeys"] = {
-		["Kalt - Kirtonos"] = "Kalt - Kirtonos",
-	},
 	["global"] = {
 		["__addonrevision"] = 1010007,
 	},
+	["profileKeys"] = {
+		["Kalt - Kirtonos"] = "Kalt - Kirtonos",
+		["Kaltbank - Kirtonos"] = "Kaltbank - Kirtonos",
+		["Mantel - Kirtonos"] = "Mantel - Kirtonos",
+	},
 	["profiles"] = {
 		["Kalt - Kirtonos"] = {
+			["minimap"] = {
+				["minimapPos"] = 238.40994530894,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -18,12 +23,16 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"Gnomeregan", -- [2]
-					2, -- [3]
-					1, -- [4]
+					"Naxxramas", -- [2]
+					nil, -- [3]
+					3, -- [4]
 					0, -- [5]
 				},
 			},
+		},
+		["Kaltbank - Kirtonos"] = {
+		},
+		["Mantel - Kirtonos"] = {
 		},
 	},
 }

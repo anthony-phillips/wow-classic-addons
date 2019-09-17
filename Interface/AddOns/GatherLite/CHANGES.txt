@@ -1,0 +1,10 @@
+lightweight tag cdf5825258495ead6468e32c6ccdea0f28f868a0 1.2.12-classic
+Author:	Wuild <wuildz@gmail.com>
+Date:	Sun Sep 8 16:25:08 2019 +0200
+
+commit cdf5825258495ead6468e32c6ccdea0f28f868a0
+Author: Wuild <wuildz@gmail.com>
+Date:   Sun Sep 8 16:25:08 2019 +0200
+
+    fixed p2p sync
+
