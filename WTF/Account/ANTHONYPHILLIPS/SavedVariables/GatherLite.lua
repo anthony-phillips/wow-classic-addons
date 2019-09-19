@@ -12,6 +12,13 @@ GatherLiteGlobalSettings = {
 	},
 }
 GatherLiteConfig = {
+	["char"] = {
+		["Kalt - Kirtonos"] = {
+			["tracking"] = {
+				["mining"] = false,
+			},
+		},
+	},
 	["global"] = {
 		["nodes"] = {
 			["fish"] = {
@@ -310,6 +317,12 @@ GatherLiteConfig = {
 						["sec"] = 35,
 						["yday"] = 251,
 						["isdst"] = true,
+					},
+					["player"] = {
+						["race"] = "Human",
+						["class"] = "MAGE",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
 					},
 					["name"] = "Fishing spot",
 					["position"] = {
@@ -1084,6 +1097,99 @@ GatherLiteConfig = {
 					["icon"] = 133910,
 					["spellID"] = 7732,
 				}, -- [27]
+				{
+					["GUID"] = "Player-4700-012B23E2",
+					["type"] = "fish",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 21,
+						["min"] = 23,
+						["wday"] = 3,
+						["day"] = 17,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 54,
+						["yday"] = 260,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["class"] = "ROGUE",
+						["race"] = "NightElf",
+						["name"] = "Mantel",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Fishing spot",
+					["position"] = {
+						["y"] = 0.573470805404418,
+						["mapID"] = 1457,
+						["x"] = 0.471650074326425,
+					},
+					["target"] = "fishing spot",
+					["loot"] = {
+						{
+							["name"] = "Raw Bristle Whisker Catfish",
+							["count"] = 1,
+							["link"] = "|cffffffff|Hitem:6308::::::::9:::::::|h[Raw Bristle Whisker Catfish]|h|r",
+						}, -- [1]
+						{
+							["name"] = "Raw Longjaw Mud Snapper",
+							["count"] = 1,
+							["link"] = "|cffffffff|Hitem:6289::::::::9:::::::|h[Raw Longjaw Mud Snapper]|h|r",
+						}, -- [2]
+					},
+					["icon"] = 133910,
+					["spellID"] = 7620,
+				}, -- [28]
+				{
+					["GUID"] = "Player-4700-012B23E2",
+					["type"] = "fish",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 21,
+						["min"] = 32,
+						["wday"] = 3,
+						["day"] = 17,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 18,
+						["yday"] = 260,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["class"] = "ROGUE",
+						["race"] = "NightElf",
+						["name"] = "Mantel",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Fishing spot",
+					["position"] = {
+						["y"] = 0.587358233656396,
+						["mapID"] = 1457,
+						["x"] = 0.479870503158988,
+					},
+					["target"] = "fishing spot",
+					["loot"] = {
+						{
+							["name"] = "Raw Longjaw Mud Snapper",
+							["count"] = 10,
+							["link"] = "|cffffffff|Hitem:6289::::::::9:::::::|h[Raw Longjaw Mud Snapper]|h|r",
+						}, -- [1]
+						{
+							["name"] = "Raw Bristle Whisker Catfish",
+							["count"] = 8,
+							["link"] = "|cffffffff|Hitem:6308::::::::9:::::::|h[Raw Bristle Whisker Catfish]|h|r",
+						}, -- [2]
+						{
+							["name"] = "Raw Brilliant Smallfish",
+							["count"] = 6,
+							["link"] = "|cffffffff|Hitem:6291::::::::9:::::::|h[Raw Brilliant Smallfish]|h|r",
+						}, -- [3]
+					},
+					["icon"] = 133910,
+					["spellID"] = 7620,
+				}, -- [29]
 			},
 			["treasure"] = {
 				{
@@ -2149,6 +2255,79 @@ GatherLiteConfig = {
 					["icon"] = 132594,
 					["spellID"] = 3365,
 				}, -- [33]
+				{
+					["GUID"] = "Player-4700-012B23E2",
+					["type"] = "treasure",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 19,
+						["min"] = 37,
+						["wday"] = 3,
+						["day"] = 17,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 41,
+						["yday"] = 260,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["class"] = "ROGUE",
+						["race"] = "NightElf",
+						["name"] = "Mantel",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Food Crate",
+					["position"] = {
+						["y"] = 0.566114180478821,
+						["mapID"] = 1438,
+						["x"] = 0.554883801205881,
+					},
+					["target"] = "food crate",
+					["loot"] = {
+						{
+							["name"] = "Tough Hunk of Bread",
+							["count"] = 4,
+							["link"] = "|cffffffff|Hitem:4540::::::::7:::::::|h[Tough Hunk of Bread]|h|r",
+						}, -- [1]
+					},
+					["icon"] = 132594,
+					["spellID"] = 6478,
+				}, -- [34]
+				{
+					["GUID"] = "Player-4700-00B953CF",
+					["type"] = "treasure",
+					["shared"] = true,
+					["date"] = {
+						["hour"] = 11,
+						["min"] = 43,
+						["wday"] = 3,
+						["year"] = 2019,
+						["yday"] = 260,
+						["month"] = 9,
+						["sec"] = 44,
+						["day"] = 17,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["race"] = "Human",
+						["class"] = "WARRIOR",
+						["name"] = "Galamn",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Solid Chest",
+					["position"] = {
+						["y"] = 0.6650694888477,
+						["mapID"] = 1417,
+						["x"] = 0.182537074282299,
+					},
+					["target"] = "solid chest",
+					["loot"] = {
+					},
+					["icon"] = 132594,
+					["spellID"] = 3365,
+				}, -- [35]
 			},
 			["herbalism"] = {
 				{
@@ -2381,6 +2560,12 @@ GatherLiteConfig = {
 						["sec"] = 53,
 						["yday"] = 243,
 						["isdst"] = true,
+					},
+					["player"] = {
+						["class"] = "MAGE",
+						["race"] = "Human",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
 					},
 					["name"] = "Silverleaf",
 					["position"] = {
@@ -8272,6 +8457,12 @@ GatherLiteConfig = {
 						["yday"] = 248,
 						["isdst"] = true,
 					},
+					["player"] = {
+						["class"] = "MAGE",
+						["race"] = "Human",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
 					["name"] = "Stranglekelp",
 					["position"] = {
 						["y"] = 0.548057504251701,
@@ -8293,15 +8484,22 @@ GatherLiteConfig = {
 					["GUID"] = "Player-4700-00A5015F",
 					["type"] = "herbalism",
 					["date"] = {
-						["hour"] = 1,
-						["min"] = 13,
-						["wday"] = 5,
-						["day"] = 5,
+						["hour"] = 16,
+						["min"] = 34,
+						["wday"] = 4,
+						["day"] = 18,
 						["month"] = 9,
 						["year"] = 2019,
-						["sec"] = 9,
-						["yday"] = 248,
+						["sec"] = 33,
+						["yday"] = 261,
 						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["class"] = "MAGE",
+						["race"] = "Human",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
 					},
 					["name"] = "Stranglekelp",
 					["position"] = {
@@ -8313,7 +8511,7 @@ GatherLiteConfig = {
 					["loot"] = {
 						{
 							["name"] = "Stranglekelp",
-							["count"] = 1,
+							["count"] = 2,
 							["link"] = "|cffffffff|Hitem:3820::::::::30:::::::|h[Stranglekelp]|h|r",
 						}, -- [1]
 					},
@@ -8333,6 +8531,12 @@ GatherLiteConfig = {
 						["sec"] = 24,
 						["yday"] = 248,
 						["isdst"] = true,
+					},
+					["player"] = {
+						["class"] = "MAGE",
+						["race"] = "Human",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
 					},
 					["name"] = "Stranglekelp",
 					["position"] = {
@@ -8738,6 +8942,12 @@ GatherLiteConfig = {
 						["isdst"] = true,
 					},
 					["coins"] = 0,
+					["player"] = {
+						["class"] = "MAGE",
+						["race"] = "Human",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
 					["name"] = "Stranglekelp",
 					["position"] = {
 						["y"] = 0.651821676587302,
@@ -9072,6 +9282,12 @@ GatherLiteConfig = {
 						["yday"] = 248,
 						["isdst"] = true,
 					},
+					["player"] = {
+						["class"] = "MAGE",
+						["race"] = "Human",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
 					["name"] = "Stranglekelp",
 					["position"] = {
 						["y"] = 0.462216287556689,
@@ -9102,6 +9318,12 @@ GatherLiteConfig = {
 						["sec"] = 17,
 						["yday"] = 248,
 						["isdst"] = true,
+					},
+					["player"] = {
+						["class"] = "MAGE",
+						["race"] = "Human",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
 					},
 					["name"] = "Stranglekelp",
 					["position"] = {
@@ -9460,6 +9682,12 @@ GatherLiteConfig = {
 						["yday"] = 248,
 						["isdst"] = true,
 					},
+					["player"] = {
+						["class"] = "MAGE",
+						["race"] = "Human",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
 					["name"] = "Briarthorn",
 					["position"] = {
 						["y"] = 0.373617577239229,
@@ -9490,6 +9718,12 @@ GatherLiteConfig = {
 						["sec"] = 29,
 						["yday"] = 248,
 						["isdst"] = true,
+					},
+					["player"] = {
+						["class"] = "MAGE",
+						["race"] = "Human",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
 					},
 					["name"] = "Liferoot",
 					["position"] = {
@@ -9749,6 +9983,12 @@ GatherLiteConfig = {
 						["sec"] = 38,
 						["yday"] = 256,
 						["isdst"] = true,
+					},
+					["player"] = {
+						["race"] = "Human",
+						["class"] = "MAGE",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
 					},
 					["name"] = "Khadgar's Whisker",
 					["position"] = {
@@ -11177,14 +11417,14 @@ GatherLiteConfig = {
 					["type"] = "herbalism",
 					["shared"] = false,
 					["date"] = {
-						["hour"] = 3,
-						["min"] = 9,
-						["wday"] = 7,
-						["day"] = 14,
+						["hour"] = 16,
+						["min"] = 30,
+						["wday"] = 4,
+						["day"] = 18,
 						["month"] = 9,
 						["year"] = 2019,
-						["sec"] = 6,
-						["yday"] = 257,
+						["sec"] = 50,
+						["yday"] = 261,
 						["isdst"] = true,
 					},
 					["coins"] = 0,
@@ -11204,7 +11444,7 @@ GatherLiteConfig = {
 					["loot"] = {
 						{
 							["name"] = "Stranglekelp",
-							["count"] = 1,
+							["count"] = 4,
 							["link"] = "|cffffffff|Hitem:3820::::::::37:::::::|h[Stranglekelp]|h|r",
 						}, -- [1]
 					},
@@ -12147,6 +12387,513 @@ GatherLiteConfig = {
 					["icon"] = 134413,
 					["spellID"] = 2366,
 				}, -- [301]
+				{
+					["GUID"] = "Player-4700-00A5015F",
+					["type"] = "herbalism",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 16,
+						["min"] = 30,
+						["wday"] = 4,
+						["day"] = 18,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 41,
+						["yday"] = 261,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["class"] = "MAGE",
+						["race"] = "Human",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Stranglekelp",
+					["position"] = {
+						["y"] = 0.673155027636054,
+						["mapID"] = 1437,
+						["x"] = 0.0959556736089188,
+					},
+					["target"] = "stranglekelp",
+					["loot"] = {
+						{
+							["name"] = "Stranglekelp",
+							["count"] = 2,
+							["link"] = "|cffffffff|Hitem:3820::::::::39:::::::|h[Stranglekelp]|h|r",
+						}, -- [1]
+					},
+					["icon"] = 134191,
+					["spellID"] = 2366,
+				}, -- [302]
+				{
+					["GUID"] = "Player-4700-00A5015F",
+					["type"] = "herbalism",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 16,
+						["min"] = 31,
+						["wday"] = 4,
+						["day"] = 18,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 32,
+						["yday"] = 261,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["class"] = "MAGE",
+						["race"] = "Human",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Stranglekelp",
+					["position"] = {
+						["y"] = 0.704792198129252,
+						["mapID"] = 1437,
+						["x"] = 0.0584262014706883,
+					},
+					["target"] = "stranglekelp",
+					["loot"] = {
+						{
+							["name"] = "Stranglekelp",
+							["count"] = 2,
+							["link"] = "|cffffffff|Hitem:3820::::::::39:::::::|h[Stranglekelp]|h|r",
+						}, -- [1]
+					},
+					["icon"] = 134191,
+					["spellID"] = 2366,
+				}, -- [303]
+				{
+					["GUID"] = "Player-4700-00A5015F",
+					["type"] = "herbalism",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 16,
+						["min"] = 33,
+						["wday"] = 4,
+						["day"] = 18,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 58,
+						["yday"] = 261,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["class"] = "MAGE",
+						["race"] = "Human",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Stranglekelp",
+					["position"] = {
+						["y"] = 0.558252551020408,
+						["mapID"] = 1437,
+						["x"] = 0.0602881690664275,
+					},
+					["target"] = "stranglekelp",
+					["loot"] = {
+						{
+							["name"] = "Stranglekelp",
+							["count"] = 1,
+							["link"] = "|cffffffff|Hitem:3820::::::::39:::::::|h[Stranglekelp]|h|r",
+						}, -- [1]
+					},
+					["icon"] = 134191,
+					["spellID"] = 2366,
+				}, -- [304]
+				{
+					["GUID"] = "Player-4700-00A5015F",
+					["type"] = "herbalism",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 16,
+						["min"] = 35,
+						["wday"] = 4,
+						["day"] = 18,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 35,
+						["yday"] = 261,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["class"] = "MAGE",
+						["race"] = "Human",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Stranglekelp",
+					["position"] = {
+						["y"] = 0.423359109268707,
+						["mapID"] = 1437,
+						["x"] = 0.0937793512978515,
+					},
+					["target"] = "stranglekelp",
+					["loot"] = {
+						{
+							["name"] = "Stranglekelp",
+							["count"] = 3,
+							["link"] = "|cffffffff|Hitem:3820::::::::39:::::::|h[Stranglekelp]|h|r",
+						}, -- [1]
+					},
+					["icon"] = 134191,
+					["spellID"] = 2366,
+				}, -- [305]
+				{
+					["GUID"] = "Player-4700-00A5015F",
+					["type"] = "herbalism",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 16,
+						["min"] = 36,
+						["wday"] = 4,
+						["day"] = 18,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 55,
+						["yday"] = 261,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["class"] = "MAGE",
+						["race"] = "Human",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Kingsblood",
+					["position"] = {
+						["y"] = 0.329427171910431,
+						["mapID"] = 1437,
+						["x"] = 0.183999995867444,
+					},
+					["target"] = "kingsblood",
+					["loot"] = {
+						{
+							["name"] = "Kingsblood",
+							["count"] = 2,
+							["link"] = "|cffffffff|Hitem:3356::::::::39:::::::|h[Kingsblood]|h|r",
+						}, -- [1]
+					},
+					["icon"] = 134183,
+					["spellID"] = 2366,
+				}, -- [306]
+				{
+					["GUID"] = "Player-4700-00A5015F",
+					["type"] = "herbalism",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 17,
+						["min"] = 18,
+						["wday"] = 4,
+						["day"] = 18,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 34,
+						["yday"] = 261,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["race"] = "Human",
+						["class"] = "MAGE",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Kingsblood",
+					["position"] = {
+						["y"] = 0.326578143180013,
+						["mapID"] = 1424,
+						["x"] = 0.372895834365686,
+					},
+					["target"] = "kingsblood",
+					["loot"] = {
+						{
+							["count"] = 2,
+							["name"] = "Kingsblood",
+							["link"] = "|cffffffff|Hitem:3356::::::::39:::::::|h[Kingsblood]|h|r",
+						}, -- [1]
+					},
+					["icon"] = 134183,
+					["spellID"] = 2366,
+				}, -- [307]
+				{
+					["GUID"] = "Player-4700-00A5015F",
+					["type"] = "herbalism",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 17,
+						["min"] = 22,
+						["wday"] = 4,
+						["day"] = 18,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 10,
+						["yday"] = 261,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["race"] = "Human",
+						["class"] = "MAGE",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Fadeleaf",
+					["position"] = {
+						["y"] = 0.795857159898914,
+						["mapID"] = 1416,
+						["x"] = 0.215333332185291,
+					},
+					["target"] = "fadeleaf",
+					["loot"] = {
+						{
+							["count"] = 1,
+							["name"] = "Fadeleaf",
+							["link"] = "|cffffffff|Hitem:3818::::::::39:::::::|h[Fadeleaf]|h|r",
+						}, -- [1]
+					},
+					["icon"] = 134193,
+					["spellID"] = 2366,
+				}, -- [308]
+				{
+					["GUID"] = "Player-4700-00A5015F",
+					["type"] = "herbalism",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 19,
+						["min"] = 57,
+						["wday"] = 4,
+						["day"] = 18,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 32,
+						["yday"] = 261,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["race"] = "Human",
+						["class"] = "MAGE",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Goldthorn",
+					["position"] = {
+						["y"] = 0.394392872279421,
+						["mapID"] = 1416,
+						["x"] = 0.44297620252233,
+					},
+					["target"] = "goldthorn",
+					["loot"] = {
+						{
+							["count"] = 1,
+							["name"] = "Goldthorn",
+							["link"] = "|cffffffff|Hitem:3821::::::::40:::::::|h[Goldthorn]|h|r",
+						}, -- [1]
+					},
+					["icon"] = 134196,
+					["spellID"] = 2366,
+				}, -- [309]
+				{
+					["GUID"] = "Player-4700-00A5015F",
+					["type"] = "herbalism",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 20,
+						["min"] = 7,
+						["wday"] = 4,
+						["day"] = 18,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 43,
+						["yday"] = 261,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["race"] = "Human",
+						["class"] = "MAGE",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Wintersbite",
+					["position"] = {
+						["y"] = 0.400392846252285,
+						["mapID"] = 1416,
+						["x"] = 0.520297634464706,
+					},
+					["target"] = "wintersbite",
+					["loot"] = {
+						{
+							["count"] = 3,
+							["name"] = "Wintersbite",
+							["link"] = "|cffffffff|Hitem:3819::::::::40:::::::|h[Wintersbite]|h|r",
+						}, -- [1]
+					},
+					["icon"] = 133940,
+					["spellID"] = 2366,
+				}, -- [310]
+				{
+					["GUID"] = "Player-4700-00A5015F",
+					["type"] = "herbalism",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 20,
+						["min"] = 7,
+						["wday"] = 4,
+						["day"] = 18,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 55,
+						["yday"] = 261,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["race"] = "Human",
+						["class"] = "MAGE",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Wintersbite",
+					["position"] = {
+						["y"] = 0.415821444175098,
+						["mapID"] = 1416,
+						["x"] = 0.528976201911979,
+					},
+					["target"] = "wintersbite",
+					["loot"] = {
+						{
+							["count"] = 3,
+							["name"] = "Wintersbite",
+							["link"] = "|cffffffff|Hitem:3819::::::::40:::::::|h[Wintersbite]|h|r",
+						}, -- [1]
+					},
+					["icon"] = 133940,
+					["spellID"] = 2366,
+				}, -- [311]
+				{
+					["GUID"] = "Player-4700-00A5015F",
+					["type"] = "herbalism",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 20,
+						["min"] = 10,
+						["wday"] = 4,
+						["day"] = 18,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 19,
+						["yday"] = 261,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["race"] = "Human",
+						["class"] = "MAGE",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Kingsblood",
+					["position"] = {
+						["y"] = 0.346285702215701,
+						["mapID"] = 1416,
+						["x"] = 0.510654776901453,
+					},
+					["target"] = "kingsblood",
+					["loot"] = {
+						{
+							["count"] = 1,
+							["name"] = "Kingsblood",
+							["link"] = "|cffffffff|Hitem:3356::::::::40:::::::|h[Kingsblood]|h|r",
+						}, -- [1]
+					},
+					["icon"] = 134183,
+					["spellID"] = 2366,
+				}, -- [312]
+				{
+					["GUID"] = "Player-4700-00A5015F",
+					["type"] = "herbalism",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 20,
+						["min"] = 14,
+						["wday"] = 4,
+						["day"] = 18,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 12,
+						["yday"] = 261,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["race"] = "Human",
+						["class"] = "MAGE",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Goldthorn",
+					["position"] = {
+						["y"] = 0.442232152497039,
+						["mapID"] = 1416,
+						["x"] = 0.454511923850443,
+					},
+					["target"] = "goldthorn",
+					["loot"] = {
+						{
+							["count"] = 2,
+							["name"] = "Goldthorn",
+							["link"] = "|cffffffff|Hitem:3821::::::::40:::::::|h[Goldthorn]|h|r",
+						}, -- [1]
+					},
+					["icon"] = 134196,
+					["spellID"] = 2366,
+				}, -- [313]
+				{
+					["GUID"] = "Player-4700-00A5015F",
+					["type"] = "herbalism",
+					["shared"] = false,
+					["date"] = {
+						["hour"] = 20,
+						["min"] = 15,
+						["wday"] = 4,
+						["day"] = 18,
+						["month"] = 9,
+						["year"] = 2019,
+						["sec"] = 51,
+						["yday"] = 261,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["race"] = "Human",
+						["class"] = "MAGE",
+						["name"] = "Kalt",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Wintersbite",
+					["position"] = {
+						["y"] = 0.670928582783913,
+						["mapID"] = 1416,
+						["x"] = 0.426583346844628,
+					},
+					["target"] = "wintersbite",
+					["loot"] = {
+						{
+							["count"] = 3,
+							["name"] = "Wintersbite",
+							["link"] = "|cffffffff|Hitem:3819::::::::40:::::::|h[Wintersbite]|h|r",
+						}, -- [1]
+					},
+					["icon"] = 133940,
+					["spellID"] = 2366,
+				}, -- [314]
 			},
 			["mining"] = {
 				{
@@ -15642,6 +16389,142 @@ GatherLiteConfig = {
 					["icon"] = 134572,
 					["spellID"] = 3564,
 				}, -- [111]
+				{
+					["GUID"] = "Player-4700-00B953CF",
+					["type"] = "mining",
+					["shared"] = true,
+					["date"] = {
+						["hour"] = 18,
+						["min"] = 15,
+						["wday"] = 2,
+						["year"] = 2019,
+						["yday"] = 259,
+						["month"] = 9,
+						["sec"] = 50,
+						["day"] = 16,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["class"] = "WARRIOR",
+						["race"] = "Human",
+						["name"] = "Galamn",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Iron Deposit",
+					["position"] = {
+						["y"] = 0.213361136968049,
+						["mapID"] = 1417,
+						["x"] = 0.343342613616442,
+					},
+					["target"] = "iron deposit",
+					["loot"] = {
+					},
+					["icon"] = 134572,
+					["spellID"] = 3564,
+				}, -- [112]
+				{
+					["GUID"] = "Player-4700-00B953CF",
+					["type"] = "mining",
+					["shared"] = true,
+					["date"] = {
+						["hour"] = 20,
+						["min"] = 22,
+						["wday"] = 2,
+						["year"] = 2019,
+						["yday"] = 259,
+						["month"] = 9,
+						["sec"] = 58,
+						["day"] = 16,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["class"] = "WARRIOR",
+						["race"] = "Human",
+						["name"] = "Galamn",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Iron Deposit",
+					["position"] = {
+						["y"] = 0.365081312775274,
+						["mapID"] = 1443,
+						["x"] = 0.77161073687375,
+					},
+					["target"] = "iron deposit",
+					["loot"] = {
+					},
+					["icon"] = 134572,
+					["spellID"] = 3564,
+				}, -- [113]
+				{
+					["GUID"] = "Player-4700-00B953CF",
+					["type"] = "mining",
+					["shared"] = true,
+					["date"] = {
+						["hour"] = 9,
+						["min"] = 56,
+						["wday"] = 4,
+						["year"] = 2019,
+						["yday"] = 261,
+						["month"] = 9,
+						["sec"] = 10,
+						["day"] = 18,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["race"] = "Human",
+						["class"] = "WARRIOR",
+						["name"] = "Galamn",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Iron Deposit",
+					["position"] = {
+						["y"] = 0.804252957569451,
+						["mapID"] = 1443,
+						["x"] = 0.718250208580732,
+					},
+					["target"] = "iron deposit",
+					["loot"] = {
+					},
+					["icon"] = 134572,
+					["spellID"] = 3564,
+				}, -- [114]
+				{
+					["GUID"] = "Player-4700-00B953CF",
+					["type"] = "mining",
+					["shared"] = true,
+					["date"] = {
+						["hour"] = 17,
+						["min"] = 43,
+						["wday"] = 4,
+						["year"] = 2019,
+						["yday"] = 261,
+						["month"] = 9,
+						["sec"] = 35,
+						["day"] = 18,
+						["isdst"] = true,
+					},
+					["coins"] = 0,
+					["player"] = {
+						["class"] = "WARRIOR",
+						["race"] = "Human",
+						["name"] = "Galamn",
+						["realm"] = "Kirtonos",
+					},
+					["name"] = "Iron Deposit",
+					["position"] = {
+						["y"] = 0.455077140362735,
+						["mapID"] = 1443,
+						["x"] = 0.711577349294583,
+					},
+					["target"] = "iron deposit",
+					["loot"] = {
+					},
+					["icon"] = 135238,
+					["spellID"] = 3564,
+				}, -- [115]
 			},
 		},
 	},

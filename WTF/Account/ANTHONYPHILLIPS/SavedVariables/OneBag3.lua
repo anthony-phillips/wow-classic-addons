@@ -18,21 +18,21 @@ OneBag3DB = {
 	},
 	["profiles"] = {
 		["Kalt - Kirtonos"] = {
-			["position"] = {
-				["top"] = 460.666961669922,
-				["left"] = 1122.66772460938,
-			},
 			["appearance"] = {
 				["lowlevel"] = false,
 			},
 			["moved"] = true,
+			["position"] = {
+				["top"] = 322.889007568359,
+				["left"] = 1359.44458007813,
+			},
 		},
 		["Kaltbank - Kirtonos"] = {
+			["moved"] = true,
 			["position"] = {
 				["top"] = 377.111206054688,
 				["left"] = 1085.33374023438,
 			},
-			["moved"] = true,
 		},
 		["Mantel - Kirtonos"] = {
 			["position"] = {

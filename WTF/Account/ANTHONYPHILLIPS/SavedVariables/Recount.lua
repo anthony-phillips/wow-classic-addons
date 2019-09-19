@@ -7,7 +7,6 @@ RecountDB = {
 	},
 	["profiles"] = {
 		["Kalt - Kirtonos"] = {
-			["DetailWindowX"] = 573.33349609375,
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -217.500030517578,
@@ -16,6 +15,7 @@ RecountDB = {
 					["h"] = 159,
 				},
 			},
+			["MainWindowHeight"] = 159.111022949219,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -27,10 +27,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -307.000061035156,
+			["DetailWindowX"] = 573.33349609375,
 			["LastInstanceName"] = "Scarlet Monastery",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 246.66667175293,
-			["MainWindowHeight"] = 159.111022949219,
 		},
 		["Kaltbank - Kirtonos"] = {
 			["MainWindowVis"] = false,
@@ -52,6 +52,7 @@ RecountDB = {
 			["CurDataSet"] = "OverallData",
 		},
 		["Mantel - Kirtonos"] = {
+			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
 					["w"] = 140.000015258789,
@@ -67,7 +68,6 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindowVis"] = false,
 			["CurDataSet"] = "OverallData",
 		},
 	},
