@@ -15,8 +15,11 @@ MapsterDB = {
 	},
 	["profileKeys"] = {
 		["Kalt - Kirtonos"] = "Default",
-		["Kaltbank - Kirtonos"] = "Default",
+		["Doodily - Kirtonos"] = "Default",
 		["Mantel - Kirtonos"] = "Default",
+		["Aphila - Kirtonos"] = "Default",
+		["Kaltbank - Kirtonos"] = "Default",
+		["Yoinks - Kromcrush"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

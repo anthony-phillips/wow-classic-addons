@@ -5,8 +5,11 @@ AtlasLootClassicDB = {
 	},
 	["profileKeys"] = {
 		["Kalt - Kirtonos"] = "Kalt - Kirtonos",
-		["Kaltbank - Kirtonos"] = "Kaltbank - Kirtonos",
+		["Doodily - Kirtonos"] = "Doodily - Kirtonos",
 		["Mantel - Kirtonos"] = "Mantel - Kirtonos",
+		["Aphila - Kirtonos"] = "Aphila - Kirtonos",
+		["Kaltbank - Kirtonos"] = "Kaltbank - Kirtonos",
+		["Yoinks - Kromcrush"] = "Yoinks - Kromcrush",
 	},
 	["profiles"] = {
 		["Kalt - Kirtonos"] = {
@@ -23,16 +26,41 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"Naxxramas", -- [2]
+					"Uldaman", -- [2]
 					nil, -- [3]
-					3, -- [4]
+					1, -- [4]
 					0, -- [5]
 				},
 			},
 		},
-		["Kaltbank - Kirtonos"] = {
+		["Doodily - Kirtonos"] = {
 		},
 		["Mantel - Kirtonos"] = {
+		},
+		["Aphila - Kirtonos"] = {
+		},
+		["Kaltbank - Kirtonos"] = {
+		},
+		["Yoinks - Kromcrush"] = {
+			["minimap"] = {
+				["minimapPos"] = 241.373782840631,
+			},
+			["GUI"] = {
+				["point"] = {
+					nil, -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					0.888895630836487, -- [4]
+					0, -- [5]
+				},
+				["selected"] = {
+					nil, -- [1]
+					"MoltenCore", -- [2]
+					8, -- [3]
+					3, -- [4]
+					0, -- [5]
+				},
+			},
 		},
 	},
 }
